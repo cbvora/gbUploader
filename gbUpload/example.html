@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<script src="js/gbUpload.js"></script>
+		<script>
+		gbUpload = new gbUpload();
+		function upload() {
+			gbUpload.fire();
+		}
+		function abort() {
+			gbUpload.abortFileUpload();
+		}
+		</script>
+	</head>
+	<body>
+		<div class="gbUpload">
+			<div class="gbUploadContainer">
+			
+				<br><br>
+				<form action="inc/gbUpload.php?action=post-unsupported" method="post" enctype="multipart/form-data" id="gbUploadForm">
+					<input type="file" id="gbUploadFile" name="gbUploadFile" />
+					<br>
+					<input type="button" class="gbUploadButton" value="Start Upload" id="gbUploadSubmit" onclick="upload()" />
+					<input type="button" class="gbUploadButton gbUploadAbort" value="Cancel" onclick="abort()" />
+				</form>
+				<br>
+				<div id="gbUploadProgressBarContainer">
+					<div id="gbUploadProgressBarFilled">
+					</div>
+				</div>
+				<div id="gbUploadTimeRemaining"></div>
+				<div id="gbUploadResponse"></div>
+				<br>
+				<h4>gbUploader by <br> <em>Chirag Vora </em></h4>
+			</div>
+		</div>
+	</body>
+</html>

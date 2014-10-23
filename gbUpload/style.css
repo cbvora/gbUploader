@@ -1,0 +1,89 @@
+body {
+	margin: 0 auto;
+	background-color:#00A0E3;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: #000000;
+	font-size: 12px;
+}
+h4 {
+	font-size:18px;
+	margin-top:0;
+	color: white;
+	margin-left: 150px;
+	margin-bottom: 5px;
+}
+.gbUpload .gbUploadContainer {
+	max-width: 350px;
+	padding: 20px 30px 30px;
+	margin: 0 auto 20px;
+	margin-top:75px;
+	background-color: #00A0E3;
+	border: 0px solid #e5e5e5;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	text-align: center;
+}
+.gbUpload #gbUploadFile {
+	border: 1px solid #e5e5e5;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	padding: 10px;
+}
+.gbUpload .gbUploadButton {
+	background-color: rgb(#959696, 109, 204);
+	border: 1px solid rgba(0, 0, 0, 0.09);
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius:6px;
+	padding-bottom: 11px;
+	padding-left: 19px;
+	padding-right: 19px;
+	padding-top: 11px;
+	font-size: 18px;
+	color:#FCC600;
+	cursor: pointer;
+	margin-top:15px;
+	font-size: 18px;
+}
+.gbUpload .gbUploadAbort {
+	background-color:rgb(218, 79, 73);
+}
+
+.gbUpload #gbUploadProgressBarContainer {
+	width:94%;
+	height:19px;
+	margin-left: 3%;
+	margin-top:1%;
+	border: 1px solid #e5e5e5;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	box-shadow: 0 1px 2px rgba(0,0,0,.05);
+}
+
+
+#gbUploadResponse {
+
+	font-size: 15px;
+	font-family: cursive;
+	color: #DA4F49;
+
+}
+.gbUpload #gbUploadProgressBarFilled {
+	border-radius: 5px;
+	margin: 1px;
+	height:17px;
+	width:0;
+	background-color: rgb(91, 183, 91);
+	font-size: 14px;
+}
